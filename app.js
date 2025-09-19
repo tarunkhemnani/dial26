@@ -10,7 +10,7 @@
       if (navigator.storage.persisted) {
         try {
           const already = await navigator.storage.persisted();
-          console.debug('Storage persisted alread;lkjlkjy:', already);
+          console.debug('Storage persisted already:', already);
         } catch (e) {}
       }
       const granted = await navigator.storage.persist();
